@@ -1,7 +1,5 @@
 import json
 from selenium import webdriver
-import time
-import unittest
 import pytest
 from selenium.webdriver.chrome.options import Options
 
