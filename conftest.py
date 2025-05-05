@@ -1,7 +1,12 @@
 import json
+import time
+
 from selenium import webdriver
 import pytest
 from selenium.webdriver.chrome.options import Options
+
+from .pages.login_page import LoginPage
+from .pages.main_page import MainPage
 
 
 def pytest_addoption(parser):
